@@ -159,3 +159,114 @@ header ul li a {
     background-color: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+@media screen and (max-width: 1190px) {
+    .circle {
+        clip-path: circle(380px at right 645px);
+    }
+
+    .content .imgBox {
+        margin-right: 0;
+    }
+
+    .content .imgBox img {
+        max-width: 260px;
+    }
+
+    .content .textBox h2 {
+        font-size: 2em;
+    }
+
+    .content .textBox p {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    section {
+        padding: 50px;
+    }
+
+    .content .textBox {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .circle {
+        clip-path: circle(306px at right 645px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .circle {
+        clip-path: circle(240px at right 550px);
+    }
+
+    .content .imgBox img {
+        max-width: 190px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .sci {
+        right: 6px;
+    }
+
+    .content .textBox {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .circle {
+        clip-path: circle(185px at right 512px);
+    }
+
+    .content .imgBox img {
+        max-width: 150px;
+    }
+
+    .content .textBox {
+        max-width: 160px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        padding: 10px;
+    }
+
+    .circle {
+        clip-path: circle(150px at right 490px);
+    }
+
+    .content .imgBox img {
+        max-width: 120px;
+    }
+
+    .content .textBox h2 {
+        font-size: 20px;
+    }
+
+    .content .textBox p {
+        font-size: 11px;
+    }
+
+    .content .imgBox {
+        margin-right: 32px;
+    }
+}
