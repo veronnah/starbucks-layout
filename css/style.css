@@ -192,7 +192,7 @@ header ul li a {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url('../../img/menu.png');
+        background: url('../img/menu.png');
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -204,7 +204,7 @@ header ul li a {
     .toggle.active {
         position: fixed;
         right: 20px;
-        background: url('../../img/close.png');
+        background: url('../img/close.png');
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
